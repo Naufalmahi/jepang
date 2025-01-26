@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Hiragana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f5f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Sawarabi Mincho', sans-serif;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-family: 'Sawarabi Mincho', sans-serif;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .navigation a {
+            text-align: center;
+            padding: 10px 20px;
+            background: #a1c4fd;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation a:hover {
+            background: #92bdfd;
+        }
+
+        .hiragana-chart {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .hiragana-chart div {
+            background: #e3f2fd;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Sawarabi Mincho', sans-serif;
+            font-size: 1.2rem;
+            color: #333;
+            transition: transform 0.3s ease;
+        }
+
+        .hiragana-chart div:hover {
+            transform: scale(1.1);
+            background: #d1ebfb;
+        }
+
+        .fun-fact {
+            background: #f1faff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: #444;
+        }
+
+        .vocabulary {
+            margin-top: 30px;
+        }
+
+        .vocabulary h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .vocabulary ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .vocabulary ul li {
+            background: #f7fbff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+            color: #444;
+        }
+
+        .vocabulary ul li strong {
+            color: #4a90e2;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: center;
+            background: #a1c4fd;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar Hiragana</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Huruf Hiragana</h2>
+            <p>Hiragana digunakan untuk menulis kata-kata asli dalam bahasa Jepang. Ini adalah salah satu sistem penulisan utama selain Katakana dan Kanji.</p>
+
+            <div class="navigation">
+                <a href="index.html"> back to Home</a>
+                <a href="2kelas-pemula.html">Back to Class</a>
+            </div>
+
+            <div class="hiragana-chart">
+                <div>あ (A)</div>
+                <div>い (I)</div>
+                <div>う (U)</div>
+                <div>え (E)</div>
+                <div>お (O)</div>
+                <div>か (Ka)</div>
+                <div>き (Ki)</div>
+                <div>く (Ku)</div>
+                <div>け (Ke)</div>
+                <div>こ (Ko)</div>
+                <div>さ (Sa)</div>
+                <div>し (Shi)</div>
+                <div>す (Su)</div>
+                <div>せ (Se)</div>
+                <div>そ (So)</div>
+                <div>た (Ta)</div>
+                <div>ち (Chi)</div>
+                <div>つ (Tsu)</div>
+                <div>て (Te)</div>
+                <div>と (To)</div>
+            </div>
+
+            <div class="fun-fact">
+                <strong>Fun Fact:</strong> Hiragana adalah sistem penulisan yang pertama kali diajarkan kepada anak-anak Jepang karena lebih mudah dipelajari dibandingkan Kanji.
+            </div>
+
+            <div class="vocabulary">
+                <h3>Kosakata dalam Hiragana</h3>
+                <ul>
+                    <li><strong>ねこ (Neko)</strong> - Kucing</li>
+                    <li><strong>さくら (Sakura)</strong> - Bunga Sakura</li>
+                    <li><strong>やま (Yama)</strong> - Gunung</li>
+                    <li><strong>かわ (Kawa)</strong> - Sungai</li>
+                    <li><strong>ひと (Hito)</strong> - Orang</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Belajar Bahasa Jepang. <a href="../index.html">Kembali ke Beranda</a></p>
+    </footer>
+</body>
+</html>
